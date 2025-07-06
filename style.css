@@ -101,4 +101,47 @@
             margin-bottom: 1rem;
             font-size: 1.1rem;
         }
+        /* Education & Skills */
+        .education{
+            background-color: rgb(174, 210, 230);
+        }
+        .education-skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6rem;
+        }
+        .education-skills .card:hover{
+            border: 3px solid black;
+        }
+
+        .card {
+            background: rgb(125, 228, 254);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+            margin-bottom: 2rem;
+        }
+
+        .card h3 {
+            color: #055ab5;
+            margin-bottom: 1rem;
+        }
+
+        .skill-item {
+            margin-bottom: 1rem;
+        }
+
+        .skill-bar {
+            background: #e9ecef;
+            height: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .skill-fill {
+            background: #007bff;
+            height: 100%;
+            border-radius: 10px;
+        }
 
