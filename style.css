@@ -101,6 +101,7 @@
             margin-bottom: 1rem;
             font-size: 1.1rem;
         }
+
         /* Education & Skills */
         .education{
             background-color: rgb(174, 210, 230);
@@ -143,5 +144,34 @@
             background: #007bff;
             height: 100%;
             border-radius: 10px;
+        }
+
+            /* activities */
+
+        .container .card ul li {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: #d3e8fb; 
+            border-left: 4px solid #007bff; 
+            border-radius: 10px;
+        }
+        .card ul li:hover{
+            border: 3px solid blue;
+        }
+        .achievements{
+            background-color: rgb(174, 210, 230);
+        }
+
+        /* Grid Layouts */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 4rem;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 4rem;
         }
 
